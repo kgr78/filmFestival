@@ -1,0 +1,16 @@
+.nav-item {
+    margin-right: 5px;
+}
+.container-md {
+    margin-top: 100px;
+}
+@media (max-width: 1000px) { /* Adjust the breakpoint as needed */
+    .navbar-nav {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .nav-item {
+        margin: 5px;
+    }
+}

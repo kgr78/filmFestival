@@ -1,0 +1,38 @@
+.fixed-column {
+    flex: 1;
+    width: 150px;
+}
+
+.fixed-column-heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.fixed-column-content {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h5 {
+    margin-top: 50px;
+}
+.fixed-column {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    border: 1px solid black;
+}
